@@ -1,0 +1,1094 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+  /* iland responsive css start */
+  .iland .waterland img {
+    width: 50px;
+    height: 50px;
+  }
+  .iland .waterland h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  /* end */
+  /* gallery responsive css start */
+  .gellary .item {
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    margin: 5px;
+  }
+  .gellary .item img {
+    width: 100%;
+    height: 250px;
+  }
+  .gellary .item .best {
+    top: 5px;
+  }
+  .gellary .item .best {
+    font-size: 20px;
+  }
+  .gellary .item .best h3 {
+    margin: 0;
+  }
+  /* end */
+  /* about responsive css start */
+  /* .about .about_left {
+    padding: 0px;
+  } */
+  .about .about_left h5 {
+    font-size: 20px;
+  }
+  .about .about_left h2 {
+    font-size: 35px;
+  }
+  .about .about_left .activities .activities_card i {
+    margin: 0;
+    padding: 5px;
+  }
+  .about .about_left .activities .activities_card p {
+    font-size: 14px;
+  }
+  .about .about_right {
+    padding: 0;
+  }
+  .about .about_right img {
+    width: 100%;
+    padding: 0;
+  }
+  .about .about_right .card {
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .about .about_right .card .visitors_card {
+    width: 140px;
+    padding: 0;
+  }
+  .about .about_right .card .awards_card {
+    width: 140px;
+    padding: 0;
+  }
+  /* end */
+  /* services responsive css start */
+  .service .our_service .grid {
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    padding: 10px;
+    gap: 10px;
+  }
+  .service .our_service .grid .grid_card {
+    width: 90%;
+    height: 220px;
+  }
+  /* end */
+  /* attraction responsive css start */
+  .attraction img {
+    height: 400px;
+  }
+  .attraction .attraction_content {
+    top: 10px;
+  }
+  .attraction .attraction_image {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 10px;
+    left: 30%;
+  }
+  .attraction .attraction_image img {
+    width: 100%;
+    height: 120px;
+  }
+  /* end */
+  /* gallary responsive css */
+  .gallery {
+    margin-top: 20px;
+  }
+  .gallery .our_gallery .gallery_card {
+    width: 90%;
+    height: 250px;
+    padding: 10px;
+  }
+  .gallery .our_gallery .gallery_card img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+  }
+  /* end */
+  /* blog */
+  .blog p {
+    padding: 10px;
+  }
+  .blog .children_blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    gap: 5px;
+  }
+
+  .blog .children_blog .children_blog_card {
+    width: 90%;
+    padding: 5px;
+  }
+  .blog .children_blog .children_blog_card .image img {
+    width: 100%;
+    height: 250px;
+  }
+  /* end */
+  /* footer responsive css strat */
+  .footer .footer_item {
+    width: 100%;
+    padding: 0;
+  }
+  .footer .footer_item h3 {
+    text-align: center;
+    color: aliceblue;
+  }
+  .footer .footer_item p {
+    padding: 10px;
+  }
+  .footer .footer_item ul {
+    padding: 10px;
+  }
+  .footer .footer_item ul li span {
+    left: 10px;
+  }
+  .footer .footer_item i {
+    color: aliceblue;
+  }
+  /* end */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* iland responsive css start */
+  .iland .waterland img {
+    width: 50px;
+    height: 30px;
+  }
+  .iland .waterland h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  .iland .menu ul li {
+    font-size: 8px;
+    padding: 10px 5px;
+  }
+  .iland .social ul li {
+    padding: 2px;
+  }
+  .iland .social ul li i {
+    padding: 6px;
+  }
+  /* end */
+  /* banner section responsive start  */
+  .banner img {
+    height: 450px;
+  }
+  .banner .content {
+    padding: 10px;
+  }
+  .banner .content .content_left {
+    flex-basis: 50%;
+  }
+  .banner .content .content_left h1 {
+    font-size: 40px;
+  }
+  .banner .content_right {
+    width: 45%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  .banner .content_right h3 {
+    font-size: 25px;
+  }
+  .banner .content_right .content_right_form input {
+    margin-bottom: 3px;
+  }
+  .banner .content_right .content_right_form .email input {
+    margin-bottom: 3px;
+  }
+  .banner .content_right .content_right_form select {
+    margin-bottom: 3px;
+  }
+  .banner .content_right .content_right_form button {
+    padding: 5px 37%;
+  }
+  /* end */
+  /* gallery responsive css start */
+  .gellary .item {
+    width: 100%;
+    padding: 0;
+    margin: 5px;
+  }
+  .gellary .item img {
+    width: 100%;
+    height: 230px;
+  }
+  .gellary .item .best {
+    top: 5px;
+  }
+  .gellary .item .best {
+    font-size: 15px;
+  }
+  .gellary .item .best h3 {
+    margin: 0;
+  }
+  /* end */
+  /* about responsive css start */
+  .about .about_left {
+    padding: 10px;
+  }
+  .about .about_left h2 {
+    font-size: 25px;
+  }
+  .about .about_left .activities .activities_card i {
+    margin: 5px;
+    padding: 8px;
+  }
+  .about .about_left .activities .activities_card p {
+    font-size: 14px;
+  }
+  .about .about_right {
+    padding: 10px;
+  }
+  .about .about_right img {
+    width: 100%;
+    padding: 0;
+  }
+  .about .about_right .card {
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .about .about_right .card .visitors_card {
+    width: 120px;
+    padding: 5px;
+  }
+  .about .about_right .card .awards_card {
+    width: 120px;
+    padding: 5px;
+  }
+  /* end */
+  /* services responsive css start */
+  .service img {
+    height: 570px;
+  }
+  .service .our_service h5 {
+    font-size: 20px;
+  }
+  .service .our_service h2 {
+    font-size: 40px;
+  }
+  .service .our_service p {
+    font-size: 18px;
+  }
+  .service .our_service .work_hour {
+    width: 50%;
+    padding: 2px;
+  }
+  .service .our_service .work_hour_shidule {
+    padding: 0px 5px;
+  }
+  .service .our_service .grid {
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    padding: 5px;
+    gap: 10px;
+  }
+  .service .our_service .grid .grid_card {
+    width: 90%;
+    height: 225px;
+  }
+  /* end */
+  /* pacakage responsive css start */
+  .package .ticket_package {
+    padding: 0px;
+  }
+  .package .ticket_package h2 {
+    font-size: 35px;
+  }
+  .package .family_packages {
+    width: 90%;
+    padding: 0px;
+  }
+  /* end */
+  /* attraction responsive css start */
+  .attraction img {
+    height: 350px;
+  }
+  .attraction .attraction_content {
+    top: 10px;
+  }
+  .attraction .attraction_content h2 {
+    font-size: 40px;
+  }
+  .attraction .attraction_image {
+    left: 25%;
+    gap: 10px;
+  }
+  .attraction .attraction_image img {
+    height: 130px;
+  }
+  /* end */
+  /* gallary responsive css */
+  .gallery {
+    margin-top: 20px;
+  }
+  .gallery h5 {
+    font-size: 20px;
+  }
+  .gallery h2 {
+    font-size: 40px;
+  }
+  .gallery .our_gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .gallery .our_gallery .gallery_card {
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+  }
+  .gallery .our_gallery .gallery_card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+  }
+  /* end */
+  /* blog */
+  .blog h5 {
+    font-size: 15px;
+  }
+  .blog h2 {
+    font-size: 30px;
+  }
+  .blog p {
+    padding: 10px;
+  }
+  .blog .children_blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    gap: 5px;
+  }
+
+  .blog .children_blog .children_blog_card {
+    width: 90%;
+    padding: 5px;
+  }
+  .blog .children_blog .children_blog_card .image img {
+    width: 100%;
+    height: 250px;
+  }
+  /* end */
+  /* team responsive css start  */
+  .team .team_header_content h5 {
+    font-size: 15px;
+  }
+  .team .team_header_content h2 {
+    font-size: 30px;
+  }
+  /* end */
+  /* Testimonial responsive css  */
+  .testimonial img {
+    height: 550px;
+  }
+  .testimonial .testimonial_content h5 {
+    font-size: 20px;
+  }
+  .testimonial .testimonial_content h2 {
+    font-size: 40px;
+  }
+  .testimonial .testimonial_content p {
+    font-size: 15px;
+    margin: 0;
+    padding: 10px;
+  }
+  /* end */
+  /* footer responsive css start */
+  .footer {
+    display: flex;
+  }
+  .footer .footer_item {
+    width: 100%;
+    padding: 0;
+  }
+  .footer .footer_item h3 {
+    text-align: center;
+    color: aliceblue;
+  }
+  .footer .footer_item p {
+    padding: 10px;
+  }
+  .footer .footer_item ul {
+    padding: 10px;
+  }
+  .footer .footer_item ul li span {
+    left: 10px;
+  }
+  .footer .footer_item i {
+    color: aliceblue;
+  }
+  /* end */
+  /* footer Iland responsive start */
+  .footer_iland .footer_iland_item {
+    padding: 5px 20px;
+    font-size: 15px;
+  }
+  /* end */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* iland responsive css start */
+  .iland {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .iland .waterland img {
+    width: 50px;
+    height: 30px;
+  }
+  .iland .waterland h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .iland .menu ul li {
+    font-size: 8px;
+    padding: 10px 5px;
+  }
+  .iland .social ul li {
+    padding: 2px;
+  }
+  .iland .social ul li i {
+    padding: 6px;
+  }
+  /* end */
+  /* banner section responsive start  */
+  .banner img {
+    height: 450px;
+  }
+  .banner .content {
+    padding: 5px;
+  }
+  .banner .content .content_left {
+    flex-basis: 50%;
+  }
+  .banner .content .content_left h4 {
+    font-size: 14px;
+  }
+  .banner .content .content_left h1 {
+    font-size: 30px;
+  }
+  .banner .content_right {
+    width: 45%;
+    padding: 0;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  .banner .content_right h3 {
+    font-size: 15px;
+  }
+  .banner .content_right .content_right_form {
+    padding: 5px;
+    width: 95%;
+  }
+  .banner .content_right .content_right_form input {
+    margin-bottom: 2px;
+  }
+  .banner .content_right .content_right_form .email input {
+    margin-bottom: 2px;
+  }
+  .banner .content_right .content_right_form select {
+    margin-bottom: 2px;
+  }
+  .banner .content_right .content_right_form button {
+    padding: 5px 35%;
+  }
+  /* end */
+  /* gallery responsive css start */
+
+  .gellary .item {
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    margin: 5px;
+  }
+  .gellary .item img {
+    width: 100%;
+    height: 230px;
+  }
+  .gellary .item .best {
+    top: 2px;
+  }
+  .gellary .item .best {
+    font-size: 12px;
+  }
+  .gellary .item .best h3 {
+    margin: 0;
+  }
+  /* end */
+  /* about responsive css start */
+  .about .about_left {
+    padding: 5px;
+  }
+  .about .about_left h5 {
+    font-size: 14px;
+  }
+  .about .about_left h2 {
+    font-size: 20px;
+  }
+  .about .about_left .activities {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+  }
+  .about .about_left .activities .activities_card i {
+    margin: 0;
+    padding: 5px;
+  }
+  .about .about_left .activities .activities_card p {
+    font-size: 14px;
+  }
+  .about .about_right {
+    padding: 0;
+  }
+  .about .about_right img {
+    width: 100%;
+    padding: 0;
+  }
+  .about .about_right .card {
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .about .about_right .card .visitors_card {
+    width: 100px;
+    padding: 0;
+  }
+  .about .about_right .card .awards_card {
+    width: 100px;
+    padding: 0;
+  }
+  /* end */
+  /* services responsive css start */
+  .service img {
+    height: 650px;
+  }
+  .service .our_service h5 {
+    font-size: 15px;
+  }
+  .service .our_service h2 {
+    font-size: 30px;
+  }
+  .service .our_service p {
+    font-size: 15px;
+  }
+  .service .our_service .work_hour {
+    width: 100%;
+    padding: 0;
+  }
+  .service .our_service .work_hour_shidule {
+    padding: 0px 5px;
+  }
+  .service .our_service .grid {
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    padding: 10px;
+    gap: 10px;
+  }
+  .service .our_service .grid .grid_card {
+    width: 90%;
+    height: 150px;
+  }
+  /* end */
+  /* pacakage responsive css start */
+  .package {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .package .ticket_package {
+    padding: 0px;
+  }
+  .package .ticket_package h5 {
+    font-size: 15px;
+  }
+  .package .ticket_package h2 {
+    font-size: 30px;
+  }
+  .package .family_packages {
+    width: 100%;
+    padding: 0px;
+  }
+  /* end */
+  /* attraction responsive css start */
+  .attraction img {
+    height: 350px;
+  }
+  .attraction .attraction_content {
+    top: 10px;
+  }
+  .attraction .attraction_content h5 {
+    font-size: 15px;
+  }
+  .attraction .attraction_content h2 {
+    font-size: 30px;
+  }
+  .attraction .attraction_image {
+    left: 0;
+    gap: 10px;
+  }
+  .attraction .attraction_image img {
+    height: 100px;
+  }
+  /* end */
+  /* gallery responsive css start */
+  .gallery {
+    margin-top: 20px;
+  }
+  .gallery h5 {
+    font-size: 15px;
+  }
+  .gallery h2 {
+    font-size: 30px;
+  }
+  .gallery .our_gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery .our_gallery .gallery_card {
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+  }
+  .gallery .our_gallery .gallery_card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+  }
+  /* end */
+  /* blog */
+  .blog h5 {
+    font-size: 15px;
+  }
+  .blog h2 {
+    font-size: 30px;
+  }
+  .blog p {
+    padding: 10px;
+  }
+  .blog .children_blog {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+    gap: 5px;
+  }
+
+  .blog .children_blog .children_blog_card {
+    width: 90%;
+    padding: 5px;
+  }
+  .blog .children_blog .children_blog_card .image img {
+    width: 100%;
+    height: 250px;
+  }
+  /* end */
+  /* team responsive css start  */
+  .team .team_header_content h5 {
+    font-size: 15px;
+  }
+  .team .team_header_content h2 {
+    font-size: 30px;
+  }
+  /* end */
+  /* Testimonial responsive css  */
+  .testimonial img {
+    height: 500px;
+  }
+  .testimonial .testimonial_content h5 {
+    font-size: 15px;
+  }
+  .testimonial .testimonial_content h2 {
+    font-size: 30px;
+  }
+  .testimonial .testimonial_content p {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+  }
+  /* end */
+  /* footer responsive css start */
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .footer .footer_item {
+    width: 100%;
+    padding: 0;
+  }
+  .footer .footer_item h3 {
+    text-align: center;
+    color: aliceblue;
+  }
+  .footer .footer_item p {
+    padding: 10px;
+  }
+  .footer .footer_item ul {
+    padding: 10px;
+  }
+  .footer .footer_item ul li span {
+    left: 10px;
+  }
+  .footer .footer_item i {
+    color: aliceblue;
+  }
+  /* end */
+  /* footer Iland responsive start */
+  .footer_iland .footer_iland_item {
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+  /* end */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  body {
+    width: 100%;
+  }
+  /* iland responsive css start */
+  .iland {
+    display: grid;
+  }
+  .iland .waterland img {
+    width: 80px;
+    height: 50px;
+  }
+  .iland .waterland h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+  .iland .menu ul li {
+    font-size: 10px;
+    padding: 10px 5px;
+  }
+  .iland .social ul li {
+    padding: 2px;
+  }
+  .iland .social ul li i {
+    padding: 6px;
+  }
+  /* end */
+  /* banner section responsive css start */
+  .banner .content {
+    display: grid;
+    padding: 10px;
+    bottom: 10px;
+  }
+  .banner .content .content_left {
+    width: 100%;
+  }
+  .banner .content .content_left h4 {
+    font-size: 10px;
+  }
+  .banner .content .content_left h1 {
+    font-size: 20px;
+  }
+  .banner img {
+    height: 500px;
+  }
+  .banner .content_right {
+    padding: 0;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  .banner .content_right h3 {
+    font-size: 20px;
+  }
+  .banner .content_right .content_right_form {
+    padding: 5px;
+    width: 280px;
+  }
+  .banner .content_right .content_right_form input {
+    margin-bottom: 2px;
+  }
+  .banner .content_right .content_right_form .email input {
+    margin-bottom: 2px;
+  }
+  .banner .content_right .content_right_form select {
+    margin-bottom: 2px;
+  }
+  .banner .content_right .content_right_form button {
+    padding: 5px 99px;
+  }
+  /* end */
+  /* gallery responsive css start */
+  .gellary {
+    display: grid;
+    justify-content: space-between;
+  }
+  .gellary .item {
+    width: 100%;
+    height: 230px;
+    padding: 0;
+    margin: 5px;
+  }
+  .gellary .item img {
+    width: 100%;
+    height: 230px;
+  }
+  .gellary .item .best {
+    top: 7px;
+  }
+  /* end */
+  /* about responsive css start */
+  .about {
+    display: grid;
+  }
+  .about .about_left {
+    padding: 0px;
+  }
+  .about .about_left h5 {
+    font-size: 10px;
+  }
+  .about .about_left h2 {
+    font-size: 20px;
+  }
+  .about .about_left .activities {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+  }
+  .about .about_left .activities .activities_card i {
+    margin: 0;
+    padding: 5px;
+  }
+  .about .about_left .activities .activities_card p {
+    font-size: 14px;
+  }
+  .about .about_right {
+    padding: 0;
+  }
+  .about .about_right img {
+    width: 100%;
+    padding: 0;
+  }
+  .about .about_right .card {
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .about .about_right .card .visitors_card {
+    width: 100px;
+    padding: 0;
+  }
+  .about .about_right .card .awards_card {
+    width: 100px;
+    padding: 0;
+  }
+  /* end */
+  /* services responsive css start */
+  .service img {
+    height: 900px;
+  }
+  .service .our_service h5 {
+    font-size: 10px;
+  }
+  .service .our_service h2 {
+    font-size: 20px;
+  }
+  .service .our_service p {
+    font-size: 14px;
+  }
+  .service .our_service .work_hour {
+    width: 90%;
+    padding: 0;
+  }
+  .service .our_service .work_hour_shidule {
+    padding: 0px 5px;
+  }
+  .service .our_service .grid {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    gap: 10px;
+  }
+  .service .our_service .grid .grid_card {
+    width: 90%;
+    height: 120px;
+  }
+  /* end */
+  /* pacakage responsive css start */
+  .package {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .package .ticket_package {
+    padding: 0px;
+  }
+  .package .ticket_package h5 {
+    font-size: 10px;
+  }
+  .package .ticket_package h2 {
+    font-size: 20px;
+  }
+  .package .family_packages {
+    width: 100%;
+    padding: 0px;
+  }
+  /* end */
+  /* attraction responsive css start */
+  .attraction img {
+    height: 350px;
+  }
+  .attraction .attraction_content {
+    top: 20px;
+  }
+  .attraction .attraction_content h5 {
+    font-size: 10px;
+  }
+  .attraction .attraction_content h2 {
+    font-size: 20px;
+  }
+  .attraction .attraction_image {
+    left: 0;
+    gap: 10px;
+  }
+  .attraction .attraction_image img {
+    height: 100px;
+  }
+  /* end */
+  /* Our gallery responsive css start */
+  .gallery {
+    margin-top: 20px;
+  }
+  .gallery h5 {
+    font-size: 10px;
+  }
+  .gallery h2 {
+    font-size: 20px;
+  }
+  .gallery .our_gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gallery .our_gallery .gallery_card {
+    width: 100%;
+    height: 200px;
+  }
+  .gallery .our_gallery .gallery_card img {
+    width: 100%;
+    height: 200px;
+  }
+  /* end */
+  /* blog */
+  .blog h5 {
+    font-size: 10px;
+  }
+  .blog h2 {
+    font-size: 20px;
+  }
+  .blog p {
+    padding: 10px;
+  }
+  .blog .children_blog {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+    gap: 5px;
+  }
+  .blog .children_blog .children_blog_card {
+    padding: 0;
+  }
+  .blog .children_blog .children_blog_card .image img {
+    width: 300px;
+    height: 250px;
+  }
+  /* end */
+  /* team responsive css start  */
+  .team .team_header_content h5 {
+    font-size: 10px;
+  }
+  .team .team_header_content h2 {
+    font-size: 20px;
+  }
+  .team .our_team {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* end */
+  /* Testimonial responsive css  */
+  .testimonial img {
+    height: 400px;
+  }
+  .testimonial .testimonial_content h5 {
+    font-size: 10px;
+  }
+  .testimonial .testimonial_content h2 {
+    font-size: 20px;
+  }
+  .testimonial .testimonial_content p {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+  }
+  /* end */
+  /* footer responsive css start */
+  .footer {
+    display: grid;
+  }
+  .footer .footer_item {
+    width: 100%;
+    padding: 0;
+  }
+  .footer .footer_item h3 {
+    text-align: center;
+    color: aliceblue;
+  }
+  .footer .footer_item p {
+    padding: 10px;
+  }
+  .footer .footer_item ul {
+    padding: 10px;
+  }
+  .footer .footer_item ul li span {
+    left: 10px;
+  }
+  .footer .footer_item i {
+    color: aliceblue;
+  }
+  /* end */
+  /* footer iland responsive start */
+  .footer_iland .footer_iland_item {
+    padding: 5px;
+    font-size: 10px;
+  }
+  /* end */
+}

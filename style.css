@@ -1,0 +1,680 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* header Iland css start */
+.iland {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.iland .waterland {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+.iland .waterland img {
+  width: 70px;
+  height: 50px;
+  background-color: #3cbeee;
+  margin-right: 5px;
+}
+.iland .waterland h2 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+.iland .menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.iland .menu ul li {
+  list-style: none;
+  padding: 10px;
+}
+.iland .menu ul li:first-child {
+  color: #3cbeee;
+}
+.iland .menu ul li i {
+  font-weight: bold;
+  padding: 3px;
+}
+.iland .social ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+.iland .social ul li {
+  list-style: none;
+  padding: 10px;
+  color: #3cbeee;
+}
+.iland .social ul li i {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #ededed;
+  align-items: center;
+}
+.iland .social ul li button {
+  border: none;
+  padding: 10px 15px;
+  background-color: #3cbeee;
+  border-radius: 20px;
+  color: aliceblue;
+}
+/* end */
+/* banner section css start */
+.banner {
+  width: 100%;
+  position: relative;
+}
+.banner img {
+  width: 100%;
+  height: 600px;
+  filter: brightness(0.3);
+}
+.banner .content {
+  position: absolute;
+  bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding: 40px;
+  color: white;
+  font-family: Tahoma, sans-serif;
+}
+.banner .content .content_left {
+  flex-basis: 60%;
+}
+.banner .content .content_left h4 {
+  color: #3cbeee;
+  font-size: 20px;
+}
+.banner .content .content_left h1 {
+  margin: 0;
+  font-size: 65px;
+}
+.banner .content .content_left button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #3cbeee;
+  border-radius: 20px;
+  color: aliceblue;
+}
+.banner .content_right {
+  background: rgba(255, 255, 255, 0.33);
+  padding: 10px;
+}
+.banner .content_right h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  color: rgb(45, 33, 33);
+  font-weight: 30px;
+}
+.banner .content_right .content_right_form {
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.banner .content_right .content_right_form input {
+  width: 90%;
+  padding: 5px;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.banner .content_right .content_right_form select {
+  width: 95%;
+  padding: 5px;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.banner .content_right .content_right_form .email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.banner .content_right .content_right_form .email input {
+  width: 40%;
+}
+.banner .content_right .content_right_form .email input:last-child {
+  margin-right: 15px;
+}
+.banner .content_right .content_right_form button {
+  border: none;
+  padding: 5px 110px;
+  background-color: #3cbeee;
+  border-radius: 10px;
+  color: aliceblue;
+}
+/* end */
+/* gallery css start */
+.gellary {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+}
+.gellary .item {
+  width: 300px;
+  height: 270px;
+  position: relative;
+  padding: 20px;
+}
+.gellary .item img {
+  width: 300px;
+  height: 270px;
+  filter: brightness(0.4);
+  border-radius: 10px;
+}
+.gellary .item .best {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: aliceblue;
+  padding: 10px;
+}
+.gellary .item .best button {
+  border: none;
+  padding: 5px 30px;
+  background-color: #3cbeee;
+  border-radius: 20px;
+  color: aliceblue;
+}
+/* end */
+/* about css start */
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+.about .about_left {
+  flex-basis: 60%;
+  padding: 20px;
+}
+.about .about_left h5 {
+  color: #3cbeee;
+  font-size: 20px;
+  margin: 0;
+}
+.about .about_left h2 {
+  font-size: 30px;
+  margin: 0;
+}
+.about .about_left p {
+}
+.about .about_left .activities {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.about .about_left .activities .activities_card {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .about_left .activities .activities_card i {
+  font-size: 30px;
+  color: #3cbeee;
+  padding: 10px;
+  margin: 10px;
+}
+.about .about_left .activities .activities_card h4 {
+  font-weight: 600px;
+  margin: 10px 0px;
+}
+
+.about .about_left .activities .activities_card p {
+  margin: 0;
+}
+.about .about_right {
+  position: relative;
+}
+.about .about_right img {
+  width: 500px;
+  height: 200px;
+  padding: 20px;
+}
+.about .about_right button {
+  border: none;
+  padding: 10px 30px;
+  background-color: #3cbeee;
+  border-radius: 5px;
+  color: aliceblue;
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+.about .about_right .card {
+  display: flex;
+  justify-content: space-around;
+}
+.about .about_right .card .visitors_card {
+  width: 150px;
+  height: 100px;
+  background-color: #3cbeee;
+  justify-items: center;
+  color: #ededed;
+  padding: 20px;
+}
+.about .about_right .card .awards_card {
+  width: 150px;
+  height: 100px;
+  background-color: #0d3434;
+  justify-items: center;
+  color: #ededed;
+  padding: 20px;
+}
+.about .about_right .card i {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0;
+}
+.about .about_right .card h5 {
+  margin: 0;
+}
+.about .about_right .card p {
+  margin: 0;
+}
+
+/* end */
+/* Service css start */
+.service {
+  width: 100%;
+  position: relative;
+}
+.service img {
+  width: 100%;
+  height: 700px;
+  filter: brightness(0.4);
+}
+.service .our_service {
+  position: absolute;
+  bottom: 10px;
+  color: aliceblue;
+  justify-items: center;
+}
+.service .our_service h5 {
+  color: #3cbeee;
+  margin: 0;
+  font-size: 20px;
+}
+.service .our_service h2 {
+  font-size: 60px;
+  margin: 0;
+}
+.service .our_service p {
+  width: 80%;
+  text-align: center;
+}
+.service .our_service .work_hour {
+  width: 500px;
+  background: rgba(255, 255, 255, 0.44);
+  padding: 10px;
+}
+.service .our_service .work_hour_shidule {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.service .our_service .work_hour i {
+  color: #3cbeee;
+  margin-right: 5px;
+}
+.service .our_service .grid {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.service .our_service .grid .grid_card {
+  width: 250px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.77);
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.service .our_service .grid .grid_card i{
+  font-size: 30px;
+  color: #3cbeee;
+}
+.service .our_service .grid .grid_card h4{
+  margin: 0;
+}
+.service .our_service .grid .grid_card p{
+  text-align: center;
+  width: 100%;
+}
+/* end */
+/* Tickets Packages css start */
+.package {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  padding: 10px;
+}
+.package i {
+  color: #3cbeee;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.package ul {
+  margin: 0;
+  padding: 0;
+}
+.package ul li {
+  list-style: none;
+  padding: 7px;
+}
+.package button {
+  color: aliceblue;
+  background-color: #3cbeee;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin: 10px;
+}
+.package .ticket_package {
+  padding: 20px;
+}
+.package .ticket_package h5 {
+  font-size: 20px;
+  color: #3cbeee;
+  margin: 0;
+}
+.package h2 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: bold;
+}
+.package .family_packages {
+  width: 300px;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+.package .basic_packages {
+  width: 260px;
+  background-color: #3cbeee;
+  padding: 20px;
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+.package .basic_packages i {
+  color:black;
+}
+.package .basic_packages button{
+  background-color: aliceblue;
+  color: black;
+}
+/* end */
+/* Attraction css start */
+.attraction {
+  width: 100%;
+  position: relative;
+}
+.attraction img {
+  width: 100%;
+  height: 600px;
+  filter: brightness(0.3);
+}
+.attraction .attraction_content {
+  position: absolute;
+  top: 100px;
+  color: aliceblue;
+}
+.attraction .attraction_content h5 {
+  text-align: center;
+  color: #3cbeee;
+  font-size: 20px;
+  margin: 10px;
+}
+.attraction .attraction_content h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 2% 10%;
+}
+.attraction .attraction_content p {
+  text-align: center;
+  font-size: 14px;
+  margin: 0 10%;
+}
+.attraction .attraction_image {
+  position: absolute;
+  bottom: -20%;
+  left: 12%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  gap: 20px;
+}
+.attraction .attraction_image img {
+  width: 100%;
+  height: 300px;
+  filter: brightness(0.9);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+/* end */
+/* Gallary css start*/
+.gallery {
+  width: 100%;
+  margin-top: 100px;
+}
+.gallery h5 {
+  text-align: center;
+  color: #3cbeee;
+  font-size: 20px;
+  margin: 10px;
+}
+.gallery h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 1% 10%;
+}
+.gallery p {
+  text-align: center;
+  font-size: 14px;
+  margin: 0 10%;
+}
+.gallery .our_gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.gallery .our_gallery .gallery_card {
+  width: 300px;
+  height: 300px;
+}
+.gallery .our_gallery .gallery_card img {
+  width: 300px;
+  height: 300px;
+}
+/* blog css start */
+.blog {
+}
+.blog h5 {
+  text-align: center;
+  color: #3cbeee;
+  font-size: 20px;
+  margin: 10px;
+}
+.blog h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 2% 10%;
+}
+.blog p {
+  text-align: center;
+  font-size: 14px;
+  margin: 0 10%;
+}
+.blog .children_blog {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 10px 100px;
+}
+.blog .children_blog .children_blog_card {
+  width: 300px;
+  height: fit-content;
+  background-color: rgb(203, 200, 200);
+  padding: 10px;
+}
+.blog .children_blog .children_blog_card .image {
+  position: relative;
+}
+.blog .children_blog .children_blog_card .image img {
+  width: 300px;
+  height: 300px;
+  filter: brightness(0.5);
+}
+.blog .children_blog .children_blog_card .btn {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #3cbeee;
+  color: aliceblue;
+}
+.blog .children_blog .children_blog_card button {
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #3cbeee;
+  color: aliceblue;
+}
+.blog .children_blog .children_blog_card .date {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  padding: 5px 10px;
+  color: aliceblue;
+}
+.blog .children_blog .children_blog_card p {
+  text-align: start;
+  margin: 0;
+  padding: 10px;
+}
+/* Our team css start */
+.team .team_header_content h5 {
+  text-align: center;
+  color: #3cbeee;
+  font-size: 20px;
+}
+.team .team_header_content h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0 10%;
+}
+.team .team_header_content p {
+  text-align: center;
+  font-size: 14px;
+  margin: 0 10%;
+}
+.team .our_team {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.team .our_team .team_member {
+  width: fit-content;
+  background-color: #3cbeee;
+  text-align: center;
+}
+/* Testimonial css */
+.testimonial {
+  position: relative;
+}
+.testimonial img {
+  width: 100%;
+  height: 600px;
+  filter: brightness(0.4);
+}
+.testimonial .testimonial_content {
+  position: absolute;
+  top: 20px;
+  color: aliceblue;
+  text-align: center;
+}
+.testimonial .testimonial_content h5 {
+  color: #3cbeee;
+  font-size: 20px;
+}
+.testimonial .testimonial_content h2 {
+  font-size: 60px;
+}
+.testimonial .testimonial_content p {
+}
+/* footer css start */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  background-color: black;
+}
+.footer .footer_item {
+  width: 25%;
+  padding: 20px;
+}
+.footer .footer_item ul {
+  margin: 0;
+  padding: 0;
+}
+.footer .footer_item ul li {
+  list-style: none;
+}
+.payment_method {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+}
+.payment_method img {
+  width: 60px;
+  height: 40px;
+}
+
+/* footer iland css start */
+.footer_iland {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  background-color: black;
+}
+.footer_iland .footer_iland_item {
+  padding: 5px 30px;
+}
+.footer_iland .footer_iland_item span {
+  color: aliceblue;
+}
